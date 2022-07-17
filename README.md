@@ -16,21 +16,19 @@ We train EAC with Torch 1.8.0 and torchvision 0.9.0.
 
 **Dataset**
 
-Download [RAF-DB](http://www.whdeng.cn/RAF/model1.html#dataset), put it into the dataset folder, and make sure that it has the same structure as bellow:
+Download [RAF-DB](http://www.whdeng.cn/RAF/model1.html#dataset), put the Image folder under the raf-basic folder:
 ```key
-- dataset/raf-basic/
-         EmoLabel/
-             list_patition_label.txt
-         Image/aligned/
+- raf-basic/
+	 Image/aligned/
 	     train_00001_aligned.jpg
-             test_0001_aligned.jpg
-             ...
+	     test_0001_aligned.jpg
+	     ...
 
 ```
 
 **Pretrained backbone model**
 
-Download the pretrained ResNet-50 model and then put it into the pretrained model directory. 
+Download the pretrained ResNet-50 model and then put it under the model directory. 
 
 **Train the EAC model**
 
@@ -38,10 +36,7 @@ Train EAC with clean labels, 10\% noise, 20\% noise and 30\% noise.
 
 ```key
 cd src
-python main.py --label_path '../dataset/raf-basic/EmoLabel/list_patition_label.txt' 
-python main.py --label_path '../dataset/raf-basic/EmoLabel/noise01.txt' 
-python main.py --label_path '../dataset/raf-basic/EmoLabel/noise02.txt' 
-python main.py --label_path '../dataset/raf-basic/EmoLabel/noise03.txt' 
+sh train.sh
 ```
 
 
