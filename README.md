@@ -46,3 +46,34 @@ The effectiveness of EAC can be shown by the feature visualization. The two imag
 
 **Accuracy**
 
+Traing EAC on RAF-DB clean train set (ResNet-50 backbone) should achieve over 90\% accuracy on RAF-DB test set.
+
+![](https://github.com/zyh-uaiaaaa/Erasing-Attention-Consistency/blob/main/imgs/accuracy.png)
+
+
+**Frequently asked questions**
+
+Changing backbone to ResNet-18 should first tune the learning rate in order to acquire high classification accuracy. More details can be found in the closed issues.
+
+**Citation**
+If you find our code useful, please consider citing our paper:
+
+```shell
+@misc{https://doi.org/10.48550/arxiv.2207.10299,
+  doi = {10.48550/ARXIV.2207.10299},
+  
+  url = {https://arxiv.org/abs/2207.10299},
+  
+  author = {Zhang, Yuhang and Wang, Chengrui and Ling, Xu and Deng, Weihong},
+  
+  keywords = {Computer Vision and Pattern Recognition (cs.CV), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  
+  title = {Learn From All: Erasing Attention Consistency for Noisy Label Facial Expression Recognition},
+  
+  publisher = {arXiv},
+  
+  year = {2022},
+  
+  copyright = {arXiv.org perpetual, non-exclusive license}
+}
+```
