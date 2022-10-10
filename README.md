@@ -38,6 +38,10 @@ Train EAC with clean labels, 10\% noise, 20\% noise and 30\% noise.
 cd src
 sh train.sh
 ```
+
+
+## Results
+
 **Feature visualization**
 
 The effectiveness of EAC can be shown by the feature visualization. The two images are the learned features by EAC, while with different labels. The left image shows the features labelled with noisy labels, which are also the training labels. The right image shows the features labelled with latent truth labels, which are the clean labels. The images illustrate that training with noisy labels, EAC can still learn useful features corresponding to the latent truth instead of directly fitting the noisy labels.
@@ -51,11 +55,14 @@ Traing EAC on RAF-DB clean train set (ResNet-50 backbone) should achieve over 90
 ![](https://github.com/zyh-uaiaaaa/Erasing-Attention-Consistency/blob/main/imgs/accuracy.png)
 
 
+## Others
+
 **Frequently asked questions**
 
 Changing backbone to ResNet-18 should first tune the learning rate in order to acquire high classification accuracy. More details can be found in the closed issues.
 
 **Citation**
+
 If you find our code useful, please consider citing our paper:
 
 ```shell
