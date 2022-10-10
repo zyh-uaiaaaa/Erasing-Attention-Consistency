@@ -66,21 +66,10 @@ Changing backbone to ResNet-18 should first tune the learning rate in order to a
 If you find our code useful, please consider citing our paper:
 
 ```shell
-@misc{https://doi.org/10.48550/arxiv.2207.10299,
-  doi = {10.48550/ARXIV.2207.10299},
-  
-  url = {https://arxiv.org/abs/2207.10299},
-  
-  author = {Zhang, Yuhang and Wang, Chengrui and Ling, Xu and Deng, Weihong},
-  
-  keywords = {Computer Vision and Pattern Recognition (cs.CV), FOS: Computer and information sciences, FOS: Computer and information sciences},
-  
-  title = {Learn From All: Erasing Attention Consistency for Noisy Label Facial Expression Recognition},
-  
-  publisher = {arXiv},
-  
-  year = {2022},
-  
-  copyright = {arXiv.org perpetual, non-exclusive license}
+@article{zhang2022learn,
+  title={Learn from all: Erasing attention consistency for noisy label facial expression recognition},
+  author={Zhang, Yuhang and Wang, Chengrui and Ling, Xu and Deng, Weihong},
+  journal={arXiv preprint arXiv:2207.10299},
+  year={2022}
 }
 ```
