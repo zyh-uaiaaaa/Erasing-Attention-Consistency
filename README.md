@@ -59,7 +59,10 @@ Traing EAC on RAF-DB clean train set (ResNet-50 backbone) should achieve over 90
 
 **Frequently asked questions**
 
-Changing backbone to ResNet-18 should first tune the learning rate in order to acquire high classification accuracy. More details can be found in the closed issues.
+Changing backbone to ResNet-18 should first tune the learning rate in order to acquire high classification accuracy. More details can be found in the closed issues. The pretrained ResNet-18 model can be found in [this github repository](https://github.com/zyh-uaiaaaa/Relative-Uncertainty-Learning).
+
+Previous pretrained ResNet-50 is unavailable, the new pretrained model can be downloaded from [here](https://drive.google.com/file/d/1yQRdhSnlocOsZA4uT_8VO0-ZeLXF4gKd/view?usp=sharing).
+
 
 **Citation**
 
