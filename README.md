@@ -69,10 +69,12 @@ Previous pretrained ResNet-50 is unavailable, the new pretrained model can be do
 If you find our code useful, please consider citing our paper:
 
 ```shell
-@article{zhang2022learn,
+@inproceedings{zhang2022learn,
   title={Learn from all: Erasing attention consistency for noisy label facial expression recognition},
   author={Zhang, Yuhang and Wang, Chengrui and Ling, Xu and Deng, Weihong},
-  journal={arXiv preprint arXiv:2207.10299},
-  year={2022}
+  booktitle={Computer Vision--ECCV 2022: 17th European Conference, Tel Aviv, Israel, October 23--27, 2022, Proceedings, Part XXVI},
+  pages={418--434},
+  year={2022},
+  organization={Springer}
 }
 ```
