@@ -28,7 +28,7 @@ Download [RAF-DB](http://www.whdeng.cn/RAF/model1.html#dataset), put the Image f
 
 **Pretrained backbone model**
 
-Download the pretrained [ResNet-50 model](https://github.com/ox-vgg/vgg_face2/blob/master/README.md) and then put it under the model directory. 
+Download the pretrained [ResNet-50 model](https://drive.google.com/file/d/1yQRdhSnlocOsZA4uT_8VO0-ZeLXF4gKd/view?usp=sharing) and then put it under the model directory. 
 
 **Train the EAC model**
 
